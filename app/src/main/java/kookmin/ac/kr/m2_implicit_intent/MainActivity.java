@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i2 = new Intent(Intent.ACTION_VIEW);
-                Uri u2 = Uri.parse("http://www.daum.com/");
+                Uri u2 = Uri.parse("http://www.daum.net/");
                 i2.setData(u2);
                 startActivity(i2);
             }
